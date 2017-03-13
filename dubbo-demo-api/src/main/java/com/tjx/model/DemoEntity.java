@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by dell on 2017/3/13.
  */
-public class DemoUser implements Serializable {
+public class DemoEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -41,7 +41,7 @@ public class DemoUser implements Serializable {
 
     @Override
     public String toString() {
-        return "DemoUser{" +
+        return "DemoEntity{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
